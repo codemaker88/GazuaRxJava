@@ -65,3 +65,15 @@ public class Chapter2 {
         }
     }
 }
+
+/*
+- output -
+key1=value1
+key2=value2
+key3=value3
+onComplete
+1=value2
+2=value3
+3=value1
+onComplete
+*/
