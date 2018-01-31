@@ -15,7 +15,7 @@ public class Main {
         static <K, V> Observable<Map.Entry<K, V>> fromMap(Map<K, V> map) {
             ObjectHelper.requireNonNull(map, "map is null");
 
-            return RxJavaPlugins.onAssembly(new ObservableFromIterable<>(() -> map.entrySet().iterator()));
+            return RxJavaPlugins.onAssembly(new ObservableFromIterable<>(map.entrySet()));
         }
     }
 
