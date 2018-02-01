@@ -1,7 +1,6 @@
 @CheckReturnValue
     @SchedulerSupport(SchedulerSupport.NONE)
     public static <T> Observable<T> fromMap(Map source) {
-        ObjectHelper.requireNonNull(source, "source is null");
         return RxJavaPlugins.onAssembly(new ObservableFromIterable<T>(source.entrySet()));
     }
 
