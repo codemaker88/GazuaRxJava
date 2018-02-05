@@ -25,4 +25,4 @@ IObservable<KeyValuePair<K, V>> ToObservablePair<K, V>(this Dictionary<K, V> map
 ex) 메르센수 3개를 발행했을때 메르센수는 1,3,7이고 그중 소수는 3,7입니다.
     메르센소수를 가지고 구한 완전수는 6, 28 이고 메르센수의 인덱스와 완전수의 합은 2+3+6+28 = 39입니다.
 </pre>
-링크)https://ko.wikipmaedia.org/wiki/%EB%A9%94%EB%A5%B4%EC%84%BC_%EC%86%8C%EC%88%98
+링크)https://ko.wikipedia.org/wiki/%EB%A9%94%EB%A5%B4%EC%84%BC_%EC%86%8C%EC%88%98
