@@ -30,3 +30,9 @@ public class Chapter3 {
         return number * (number + 1) / 2;
     }
 }
+
+/*
+---- output ----
+33231380
+----------------
+*/
