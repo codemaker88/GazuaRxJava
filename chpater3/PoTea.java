@@ -16,7 +16,7 @@ public class HelloRx {
     }
 
     public static boolean isPrime(int number) {
-        return !IntStream.rangeClosed(2, number/2).anyMatch(i -> number%i == 0);
+        return (number > 1 && !IntStream.rangeClosed(2, number/2).anyMatch(i -> number%i == 0));
     }
 
     public static int numberPerfect(int number) {
