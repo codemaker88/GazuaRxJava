@@ -41,6 +41,9 @@ output : {"bnusNo":8,"firstWinamnt":1831451204,"totSellamnt":61846599000,"return
 * 요청한 URL의 json 형식은 파싱을 통해 map 형태로 변환합니다.
 
 ### 메인
+
+Kotlin의 내용이지만 목표는 로또수열을 최다노출/최소노출 모두 출력하는 것입니다.
+
 ```kotlin
 
 fun main(args: Array<String>) {
