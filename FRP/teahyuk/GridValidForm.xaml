@@ -1,0 +1,47 @@
+﻿<Grid x:Class="formValidation.GridValidForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:sWidgets="clr-namespace:SWidgets;assembly=SWidgets"
+        xmlns:SSpinner="clr-namespace:SSpinner;assembly=Practice3rds"
+        mc:Ignorable="d"
+        Background="White"
+        Height="350" Width="525">
+    <Grid x:Name="formGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Text="Name"/>
+        <TextBlock Text="No of email addresses" Grid.Row="1"/>
+        <TextBlock Text="Email #1" Grid.Row="2"/>
+        <TextBlock Text="Email #2" Grid.Row="3"/>
+        <TextBlock Text="Email #3" Grid.Row="4"/>
+        <TextBlock Text="Email #4" Grid.Row="5"/>
+        <Grid x:Name="nameBox" Grid.Column="1"/>
+        <Grid x:Name="spinner" Grid.Column="1" Grid.Row="1"/>
+        <Grid x:Name="eMailBox1" Grid.Column="1" Grid.Row="2"/>
+        <Grid x:Name="eMailBox2" Grid.Column="1" Grid.Row="3"/>
+        <Grid x:Name="eMailBox3" Grid.Column="1" Grid.Row="4"/>
+        <Grid x:Name="eMailBox4" Grid.Column="1" Grid.Row="5"/>
+        <Grid x:Name="nameValidateLabel" Grid.Column="2" Grid.Row="0"/>
+        <Grid x:Name="numberValidateLabel" Grid.Column="2" Grid.Row="1"/>
+        <Grid x:Name="eMailValidateLabel1" Grid.Column="2" Grid.Row="2"/>
+        <Grid x:Name="eMailValidateLabel2" Grid.Column="2" Grid.Row="3"/>
+        <Grid x:Name="eMailValidateLabel3" Grid.Column="2" Grid.Row="4"/>
+        <Grid x:Name="eMailValidateLabel4" Grid.Column="2" Grid.Row="5"/>
+        <Grid x:Name="okButton" Grid.Row="6" Grid.ColumnSpan="3"/>
+    </Grid>
+    
+</Grid>
